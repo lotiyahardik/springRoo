@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ocr_solr_SolrBean" object="${solrbean}" path="/solrbeans" z="xZpKpoZQGUklIk6LnK/vhVtBJ5E=">
+        <field:display field="id" id="s_com_ocr_solr_SolrBean_id" object="${solrbean}" z="n7CwdHJbHstiX48rCU268bTypNI="/>
+        <field:display field="numeroId" id="s_com_ocr_solr_SolrBean_numeroId" object="${solrbean}" z="K6NW+Exv2LCFQufunpanRr33szY="/>
+        <field:display field="fileName" id="s_com_ocr_solr_SolrBean_fileName" object="${solrbean}" z="k1hQcBaNtfVsPtDtIqoFwyZU6RQ="/>
+        <field:display field="fname" id="s_com_ocr_solr_SolrBean_fname" object="${solrbean}" z="u1vKrfiNQh6qWmMlLiyEmRL2ByY="/>
+        <field:display field="mname" id="s_com_ocr_solr_SolrBean_mname" object="${solrbean}" z="TNDjeOYWBTdVOS5O4tX0LaTd3Xs="/>
+        <field:display field="lname" id="s_com_ocr_solr_SolrBean_lname" object="${solrbean}" z="XonQ+he8rYtKDtib9amLe20Phx0="/>
+    </page:show>
+</div>

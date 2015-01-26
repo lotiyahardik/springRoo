@@ -1,0 +1,14 @@
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-01-08 10:52:47
+project --topLevelPackage com.ocr.solr --projectName ocrsolrSpringRoo --java 6 --packaging JAR
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-01-08 10:53:06
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-01-08 10:53:12
+jpa setup --database MYSQL --provider HIBERNATE 
+entity jpa --class com.ocr.solr.SolrBean
+field string --fieldName name
+field number --fieldName id --type int
+field string --fieldName numeroId
+web mvc setup
+controller all --package com.ocr.solr.MainController
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-01-08 13:55:42
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-01-23 10:12:07
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-01-23 19:11:36

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_ocr_solr_SolrBean" idField="id_" modelAttribute="solrBean" path="/solrbeans" versionField="Version" z="D0+AfQa+3V6j9xqJT5Zqq/UQsfE=">
+        <field:input field="id" id="c_com_ocr_solr_SolrBean_id" z="LlRcDjUQWIzt+PDHg2pb1zDlHOw="/>
+        <field:input field="numeroId" id="c_com_ocr_solr_SolrBean_numeroId" z="QS1VHS4+qCChQkc+o/DLWgDnZ9k="/>
+        <field:input field="fileName" id="c_com_ocr_solr_SolrBean_fileName" z="l2LZBzKDPTUlvPJwqR5w+q3Gaok="/>
+        <field:input field="fname" id="c_com_ocr_solr_SolrBean_fname" z="mifPpwV02kcdXywMornaELOGJfA="/>
+        <field:input field="mname" id="c_com_ocr_solr_SolrBean_mname" z="9zfSK76mviMiWHCFkiCIgxyKHKI="/>
+        <field:input field="lname" id="c_com_ocr_solr_SolrBean_lname" z="l2FSjP++Oa2jwuSAmG4Gmdpruuo="/>
+    </form:update>
+</div>

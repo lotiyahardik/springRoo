@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ocr_solr_SolrBean" items="${solrbeans}" z="FvmCMllJ4MtI7jebmaF9mSjFhsE=">
+        <table:table data="${solrbeans}" id="l_com_ocr_solr_SolrBean" path="/solrbeans" typeIdFieldName="id_" z="/hVlk9oPnI6pdm9RZakgDdgVOK8=">
+            <table:column id="c_com_ocr_solr_SolrBean_id" property="id" z="1FPNm//N0ZbpZNhKIGo54qV24a4="/>
+            <table:column id="c_com_ocr_solr_SolrBean_numeroId" property="numeroId" z="O4xTxjLm1WRioS649zOo/lLKwZY="/>
+            <table:column id="c_com_ocr_solr_SolrBean_fileName" property="fileName" z="/GJP2Iyx39VCucGrPxUsMhUlvH0="/>
+            <table:column id="c_com_ocr_solr_SolrBean_fname" property="fname" z="ef/cU5BOMTKTI/TJpjmMzTMEz3c="/>
+            <table:column id="c_com_ocr_solr_SolrBean_mname" property="mname" z="8OvAF30vvRwNYKLDv+KkRCVvcL8="/>
+            <table:column id="c_com_ocr_solr_SolrBean_lname" property="lname" z="/83QbtBtb+EuYi6hWaZaC+Wyex4="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="solrbeans/list">
+        <put-attribute name="body" value="/WEB-INF/views/solrbeans/list.jspx"/>
+    </definition>
+<definition extends="default" name="solrbeans/show">
+        <put-attribute name="body" value="/WEB-INF/views/solrbeans/show.jspx"/>
+    </definition>
+<definition extends="default" name="solrbeans/create">
+        <put-attribute name="body" value="/WEB-INF/views/solrbeans/create.jspx"/>
+    </definition>
+<definition extends="default" name="solrbeans/update">
+        <put-attribute name="body" value="/WEB-INF/views/solrbeans/update.jspx"/>
+    </definition>
+</tiles-definitions>
